@@ -32,7 +32,7 @@ public class BasicServlet implements Servlet {
         logger.info("New request");
         
         // получаем объект типа BufferedWriter и пишем в него ответ на пришедший запрос
-        res.getWriter().println("<h1>Servlet content: ${attr1}</h1>");
+        res.getWriter().println("<h1>Servlet content</h1>");
     }
 
     @Override
