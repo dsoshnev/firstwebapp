@@ -24,7 +24,7 @@ public class FirstServlet extends HttpServlet {
     @Override
     public void init() throws ServletException {
         super.init();
-        products.add(new Product().init(1, "product1",10D));
+        products.add(new Product().init(1, "product1",10.1D));
         products.add(new Product().init(2, "product2",20D));
         products.add(new Product().init(3, "product3",30D));
         products.add(new Product().init(4, "product4",40D));
